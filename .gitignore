@@ -1,0 +1,54 @@
+# =======================
+# Maven build artifacts
+# =======================
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =======================
+# Logs
+# =======================
+*.log
+
+# =======================
+# Compiled class files
+# =======================
+*.class
+
+# =======================
+# Package files
+# =======================
+*.jar
+*.war
+*.ear
+
+# =======================
+# VSCode settings
+# =======================
+.vscode/
+
+# =======================
+# OS-specific files
+# =======================
+.DS_Store
+Thumbs.db
+
+# =======================
+# Docker-related (optional)
+# =======================
+**/.container-build/
+**/.devcontainer/build-logs/
+
+# =======================
+# IntelliJ IDEA (if used)
+# =======================
+.idea/
+*.iml
+out/
+
+# =======================
+# Temporary files
+# =======================
+*.tmp
+*.swp
+*.swo
+*~
